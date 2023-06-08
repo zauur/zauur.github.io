@@ -19,48 +19,58 @@
     <!-- fav icon -->
     <link rel="shortcut icon" type="image/jpg" href="media/logo2.svg" />
 
+    <style>
+        body {
+            overflow: hidden;
+        }
+    </style>
+
 </head>
 
 <body>
     <section>
         <header class="">
-            <div class="container">
+            <div class="container" style="padding-top: 15px;">
                 <div class="header-content df aic jcsb">
                     <a href="/" class="logo">
                         <img src="media/logo.png" alt="" class="w-100_ h-100_">
-                    </a> 
+                    </a>
                     <ul class="df aic mobile-menu active">
                         <li>
-                            <a href="https://www.facebook.com/Zaauuur/" class="font-s-normal font-w-normal font-18 c-black mr-56 line-h-20">
+                            <a href="https://www.facebook.com/Zaauuur/"
+                                class="font-s-normal font-w-normal font-18 c-black mr-56 line-h-20" target="_blank">
                                 Facebook
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/zauur.co/" class="font-s-normal font-w-normal font-18 c-black mr-56 line-h-20">
+                            <a href="https://www.instagram.com/zauur.co/"
+                                class="font-s-normal font-w-normal font-18 c-black mr-56 line-h-20" target="_blank">
                                 Instagram
                             </a>
                         </li>
                         <li>
-                            <a href="https://dribbble.com/zaur" class="font-s-normal font-w-normal font-18 c-black mr-56 line-h-20">
+                            <a href="https://dribbble.com/zaur"
+                                class="font-s-normal font-w-normal font-18 c-black mr-56 line-h-20" target="_blank">
                                 Dribbble
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.behance.net/zauur" class="font-s-normal font-w-normal font-18 c-black mr-56 line-h-20">
+                            <a href="https://www.behance.net/zauur"
+                                class="font-s-normal font-w-normal font-18 c-black mr-56 line-h-20" target="_blank">
                                 Behance
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/zaauuur/" class="font-s-normal font-w-normal font-18 c-black line-h-20">
+                            <a href="https://www.linkedin.com/in/zaauuur/"
+                                class="font-s-normal font-w-normal font-18 c-black line-h-20" target="_blank">
                                 Linkedin
                             </a>
                         </li>
                     </ul>
-                    <a href="https://zauur.com/media/cv.pdf" target="_blank"
-                        class="resume">
+                    <a href="https://zauur.com/media/cv.pdf" target="_blank" class="resume">
                         Resume
                     </a>
-                    <button class="menubutton desk-none" onclick="menubutton()"></button>
+                    <button class="menubutton desk-none" onclick="menuButtonClick()"></button>
                 </div>
             </div>
         </header>
@@ -74,7 +84,8 @@
                                 mən Zaur Həşimov
                             </h4>
                             <p class=" font-s-normal font-w-normal font-24 line-h-150_ c-gray mb-36 main-left-p">
-                                Günün trendlərinə uyğun gələcəyin dizayn həllərini təklif edirəm. Məhsulunuza və ya brendinizə güclü bazar dəyəri qazandırmaq üçün birlikdə işləyə bilərik.
+                                Günün trendlərinə uyğun gələcəyin dizayn həllərini təklif edirəm. Məhsulunuza və ya
+                                brendinizə güclü bazar dəyəri qazandırmaq üçün birlikdə işləyə bilərik.
                             </p>
                             <div class="mob-btns">
                                 <a href="tel:+994998393990" class="contact-a">
@@ -90,7 +101,8 @@
                                         class="font-s-normal font-w-normal c-black font-24 mb-16 tr-3">
                                         hello@zauur.com
                                     </a>
-                                    <a href="tel:+99499 839 3990" class="font-s-normal font-w-normal c-black font-24 tr-3">
+                                    <a href="tel:+99499 839 3990"
+                                        class="font-s-normal font-w-normal c-black font-24 tr-3">
                                         +99499 839 3990
                                     </a>
                                 </div>
@@ -112,7 +124,7 @@
     <script>
         $(document).ready(function () {
             console.log("ready")
-            menubutton = () => {
+            let menuButtonClick = () => {
                 $(".menubutton").toggleClass("active");
                 $('.mobile-menu').toggleClass("active");
                 $("body").toggleClass('active')
