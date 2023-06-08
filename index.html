@@ -25,6 +25,13 @@
                 overflow: hidden;
             }
         }
+
+        @supports (-webkit-touch-callout: none) {
+            body {
+                overflow: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+        }
     </style>
 
 </head>
