@@ -122,14 +122,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
     <script src="//code.tidio.co/ye8pwwiv1gziytq7hvl5fhrrirmssttm.js" async></script>
     <script>
+        function menubutton() {
+            $(".menubutton").toggleClass("active");
+            $('.mobile-menu').toggleClass("active");
+            $("body").toggleClass('active');
+        }
+
         $(document).ready(function () {
-            console.log("ready")
-            let menubutton = () => {
-                $(".menubutton").toggleClass("active");
-                $('.mobile-menu').toggleClass("active");
-                $("body").toggleClass('active')
-            }
-        })
+            console.log("ready");
+        });
     </script>
 </body>
 
