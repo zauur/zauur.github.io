@@ -70,7 +70,7 @@
                     <a href="https://zauur.com/media/cv.pdf" target="_blank" class="resume">
                         Resume
                     </a>
-                    <button class="menubutton desk-none" onclick="menuButtonClick()"></button>
+                    <button class="menubutton desk-none" onclick="menubutton()"></button>
                 </div>
             </div>
         </header>
@@ -124,7 +124,7 @@
     <script>
         $(document).ready(function () {
             console.log("ready")
-            let menuButtonClick = () => {
+            let menubutton = () => {
                 $(".menubutton").toggleClass("active");
                 $('.mobile-menu').toggleClass("active");
                 $("body").toggleClass('active')
