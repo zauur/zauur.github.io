@@ -1,0 +1,1303 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Edu+NSW+ACT+Foundation:wght@500&family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Martel:wght@200&family=Montserrat:wght@200;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300;1,400&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Edu+NSW+ACT+Foundation:wght@500&family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Martel:wght@200&family=Montserrat:wght@200;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300;1,400&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Edu+NSW+ACT+Foundation:wght@500&family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Martel:wght@200&family=Montserrat:wght@200;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  padding: 120px 100px;
+}
+
+.Container {
+  padding: 50px 160px;
+}
+
+#Enginer-About {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 32px;
+  background: #1B1A17;
+}
+#Enginer-About .container {
+  width: 55%;
+  height: auto;
+  background: #1B1A17;
+  opacity: 0.95;
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  border-radius: 12px;
+  padding: 0px 0px;
+}
+#Enginer-About .container .About {
+  width: 100%;
+  height: 59vh;
+  background: #FFFFFF;
+  opacity: 0.95;
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  border-radius: 12px;
+  padding: 71px 32px;
+  text-align: start;
+}
+#Enginer-About .container .About h1 {
+  background: 50% 100%/50% 50% no-repeat radial-gradient(ellipse at bottom, rgb(132, 101, 211), transparent, transparent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: "roboto";
+  font-style: normal;
+  color: transparent;
+  font-weight: 800;
+  font-size: 56px;
+  margin-bottom: 12px;
+  line-height: 67px;
+  -webkit-animation: reveal 3000ms ease-in-out forwards 200ms, glow 3000ms linear infinite 1000ms;
+          animation: reveal 3000ms ease-in-out forwards 200ms, glow 3000ms linear infinite 1000ms;
+}
+@-webkit-keyframes reveal {
+  80% {
+    letter-spacing: 8px;
+  }
+  100% {
+    background-size: 200% 200%;
+  }
+}
+@keyframes reveal {
+  80% {
+    letter-spacing: 8px;
+  }
+  100% {
+    background-size: 200% 200%;
+  }
+}
+@-webkit-keyframes glow {
+  80% {
+    text-shadow: 0 0 2px rgb(220, 172, 29);
+  }
+  50% {
+    text-shadow: 0 0 1px rgb(208, 63, 0);
+  }
+}
+@keyframes glow {
+  80% {
+    text-shadow: 0 0 2px rgb(220, 172, 29);
+  }
+  50% {
+    text-shadow: 0 0 1px rgb(208, 63, 0);
+  }
+}
+#Enginer-About .container .About h3 {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 33px;
+}
+#Enginer-About .container .About div {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 8px;
+}
+#Enginer-About .container .About div .a {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
+  transition: 0.3s;
+}
+#Enginer-About .container .About div .a:hover {
+  transform: 0.3s;
+  color: #e45826;
+}
+#Enginer-About .container .About div .b {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
+  transition: 0.3s;
+}
+#Enginer-About .container .About div .b:hover {
+  transform: 0.3s;
+  color: #4268fb;
+}
+#Enginer-About .container .About div .c {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
+  transition: 0.3s;
+}
+#Enginer-About .container .About div .c:hover {
+  transform: 0.3s;
+  color: #35e40a;
+}
+#Enginer-About .container .About div .d {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
+  transition: 0.3s;
+}
+#Enginer-About .container .About div .d:hover {
+  transform: 0.3s;
+  color: #ecc33c;
+}
+#Enginer-About .container .About div img {
+  margin-left: 6px;
+  width: 90px;
+  height: 28px;
+  border-radius: 16px;
+}
+#Enginer-About .container .ZZ-QR {
+  width: 100%;
+  height: 202px;
+  background: #1B1A17;
+  border-radius: 12px;
+  margin-top: 10px;
+  opacity: 0.95;
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px 0px 24px;
+}
+#Enginer-About .container .ZZ-QR .img-box {
+  width: 222px;
+  height: 202px;
+  padding: 40px 0px;
+}
+#Enginer-About .container .ZZ-QR .img-box img {
+  width: 184px;
+  height: 121px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#Enginer-About .container .ZZ-QR .QR-box {
+  width: 222px;
+  height: 202px;
+  background: #FFFFFF;
+  opacity: 0.95;
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  border-radius: 12px;
+  padding: 30px 40px;
+}
+#Enginer-About .container .ZZ-QR .QR-box img {
+  width: 140px;
+  height: 140px;
+}
+#Enginer-About .Container {
+  width: 44%;
+  height: 94vh;
+  display: block;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: transparent;
+  border-radius: 12px;
+  padding: 0px;
+}
+#Enginer-About .Container .PF-SM {
+  width: 100%;
+  height: 30.5vh;
+  display: 0px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  background-color: transparent;
+  justify-content: space-between;
+  display: flex;
+}
+#Enginer-About .Container .PF-SM img {
+  width: 52%;
+  height: 31vh;
+  border-radius: 12px;
+}
+#Enginer-About .Container .PF-SM .social-media {
+  width: 43%;
+  height: 31vh;
+  border-radius: 12px;
+  background-color: transparent;
+  display: block;
+  justify-content: flex-start;
+  text-align: start;
+  padding: 24px 0px;
+}
+#Enginer-About .Container .PF-SM .social-media a {
+  display: block;
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 26px;
+}
+#Enginer-About .Container .Res-Hire {
+  width: 100%;
+  height: auto;
+  display: block;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+#Enginer-About .Container .Res-Hire div {
+  width: 52%;
+  height: 13vh;
+  background: #FFFFFF;
+  opacity: 0.95;
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  margin-top: 8px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  padding: 4vh 4vh;
+}
+#Enginer-About .Container .Res-Hire div h3 {
+  color: #000;
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+}
+#Enginer-About .Container .Res-Hire div img {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#Enginer-About .Container .Projects {
+  width: 100%;
+  height: 26.7vh;
+  background: #FFFFFF;
+  opacity: 0.95;
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  border-radius: 12px;
+  margin-top: 9px;
+  display: block;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 24px 30px;
+}
+#Enginer-About .Container .Projects h3 {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #000000;
+}
+#Enginer-About .Container .Projects .swiper {
+  width: 100%;
+  height: 100%;
+}
+#Enginer-About .Container .Projects .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Enginer-About .Container .Projects .swiper-slide a img {
+  width: 130px;
+  height: 12vh;
+  border-radius: 12px;
+}
+#Enginer-About .Container .Projects .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  #Enginer-About {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background: #1B1A17;
+  }
+  #Enginer-About .container {
+    width: 55%;
+    height: auto;
+    background: transparent;
+    opacity: 0.95;
+    -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(30px);
+    border-radius: 12px;
+    padding: 0px 0px;
+  }
+  #Enginer-About .container .About {
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    opacity: 0.95;
+    -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(30px);
+    border-radius: 12px;
+    padding: 40px 25px;
+    text-align: start;
+  }
+  #Enginer-About .container .About h1 {
+    background: 50% 100%/50% 50% no-repeat radial-gradient(ellipse at bottom, rgb(132, 101, 211), transparent, transparent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: "roboto";
+    font-style: normal;
+    color: transparent;
+    font-weight: 800;
+    font-size: 46px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    line-height: 67px;
+    -webkit-animation: reveal 3000ms ease-in-out forwards 200ms, glow 3000ms linear infinite 1000ms;
+            animation: reveal 3000ms ease-in-out forwards 200ms, glow 3000ms linear infinite 1000ms;
+  }
+  @-webkit-keyframes reveal {
+    80% {
+      letter-spacing: 6px;
+    }
+    100% {
+      background-size: 200% 200%;
+    }
+  }
+  @keyframes reveal {
+    80% {
+      letter-spacing: 6px;
+    }
+    100% {
+      background-size: 200% 200%;
+    }
+  }
+  @-webkit-keyframes glow {
+    80% {
+      text-shadow: 0 0 2px rgb(220, 172, 29);
+    }
+    50% {
+      text-shadow: 0 0 1px rgb(208, 63, 0);
+    }
+  }
+  @keyframes glow {
+    80% {
+      text-shadow: 0 0 2px rgb(220, 172, 29);
+    }
+    50% {
+      text-shadow: 0 0 1px rgb(208, 63, 0);
+    }
+  }
+  #Enginer-About .container .About h3 {
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 25px;
+  }
+  #Enginer-About .container .About div {
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: start;
+    margin-bottom: 0px;
+  }
+  #Enginer-About .container .About div .a {
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: #000000;
+    transition: 0.3s;
+  }
+  #Enginer-About .container .About div .a:hover {
+    transform: 0.3s;
+    color: #e45826;
+  }
+  #Enginer-About .container .About div .b {
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: #000000;
+    transition: 0.3s;
+  }
+  #Enginer-About .container .About div .b:hover {
+    transform: 0.3s;
+    color: #4268fb;
+  }
+  #Enginer-About .container .About div .c {
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 0;
+    opacity: 0;
+    font-size: 0px;
+    line-height: 0%;
+  }
+  #Enginer-About .container .About div .d {
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: #000000;
+    transition: 0.3s;
+  }
+  #Enginer-About .container .About div .d:hover {
+    transform: 0.3s;
+    color: #ecc33c;
+  }
+  #Enginer-About .container .About div img {
+    opacity: 0;
+    margin-left: 6px;
+    width: 0px;
+    height: 0px;
+    border-radius: 16px;
+  }
+  #Enginer-About .container .ZZ-QR {
+    width: 100%;
+    height: 202px;
+    background: #1B1A17;
+    border-radius: 12px;
+    margin-top: 10px;
+    opacity: 0.95;
+    -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(30px);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+  }
+  #Enginer-About .container .ZZ-QR .img-box {
+    width: 222px;
+    height: 202px;
+    padding: 40px 0px;
+  }
+  #Enginer-About .container .ZZ-QR .img-box img {
+    width: 160px;
+    height: 105px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #Enginer-About .container .ZZ-QR .QR-box {
+    width: 190px;
+    height: 202px;
+    background: #FFFFFF;
+    opacity: 0.95;
+    -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(30px);
+    border-radius: 12px;
+    padding: 30px 25px;
+  }
+  #Enginer-About .container .ZZ-QR .QR-box img {
+    width: 140px;
+    height: 140px;
+  }
+  #Enginer-About .Container {
+    width: 44%;
+    height: 100%;
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: transparent;
+    border-radius: 12px;
+    padding: 0px;
+  }
+  #Enginer-About .Container .PF-SM {
+    width: 100%;
+    height: 236px;
+    display: 0px;
+    border-radius: 12px;
+    background-color: transparent;
+    justify-content: space-between;
+    display: flex;
+  }
+  #Enginer-About .Container .PF-SM img {
+    width: 50%;
+    height: 190px;
+    border-radius: 12px;
+  }
+  #Enginer-About .Container .PF-SM .social-media {
+    width: 42%;
+    height: 220px;
+    border-radius: 12px;
+    background-color: transparent;
+    display: block;
+    justify-content: flex-start;
+    text-align: start;
+    padding: 24px 0px;
+  }
+  #Enginer-About .Container .PF-SM .social-media a {
+    display: block;
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+  }
+  #Enginer-About .Container .Res-Hire {
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 60px;
+  }
+  #Enginer-About .Container .Res-Hire div {
+    width: 100%;
+    height: 70px;
+    background: #FFFFFF;
+    opacity: 0.95;
+    -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(30px);
+    margin-top: 8px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 25px;
+  }
+  #Enginer-About .Container .Res-Hire div h3 {
+    color: #000;
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  #Enginer-About .Container .Res-Hire div img {
+    width: 35px;
+    height: 35px;
+    border-radius: 12px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #Enginer-About .Container .Projects {
+    width: 100%;
+    height: 202px;
+    background: #FFFFFF;
+    opacity: 0.95;
+    -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(30px);
+    border-radius: 12px;
+    margin-top: 10px;
+    display: block;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 20px;
+  }
+  #Enginer-About .Container .Projects h3 {
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  #Enginer-About .Container .Projects .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  #Enginer-About .Container .Projects .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #Enginer-About .Container .Projects .swiper-slide a img {
+    width: 90px;
+    height: 12vh;
+    border-radius: 12px;
+  }
+  #Enginer-About .Container .Projects .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 768px) {
+  #Enginer-About {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 32px 32px;
+    background: #1B1A17;
+  }
+  #Enginer-About .container {
+    width: 100%;
+    height: auto;
+    background: transparent;
+    opacity: 0.95;
+    -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(30px);
+    border-radius: 12px;
+    padding: 0px 0px;
+  }
+  #Enginer-About .container .About {
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    opacity: 0.95;
+    -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(30px);
+    border-radius: 12px;
+    padding: 55px 35px;
+    text-align: start;
+  }
+  #Enginer-About .container .About h1 {
+    background: 50% 100%/50% 50% no-repeat radial-gradient(ellipse at bottom, rgb(132, 101, 211), transparent, transparent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: "roboto";
+    font-style: normal;
+    color: transparent;
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 12px;
+    line-height: 67px;
+    -webkit-animation: reveal 3000ms ease-in-out forwards 200ms, glow 3000ms linear infinite 1000ms;
+            animation: reveal 3000ms ease-in-out forwards 200ms, glow 3000ms linear infinite 1000ms;
+  }
+  @-webkit-keyframes reveal {
+    80% {
+      letter-spacing: 5px;
+    }
+    100% {
+      background-size: 200% 200%;
+    }
+  }
+  @keyframes reveal {
+    80% {
+      letter-spacing: 5px;
+    }
+    100% {
+      background-size: 200% 200%;
+    }
+  }
+  @-webkit-keyframes glow {
+    80% {
+      text-shadow: 0 0 2px rgb(220, 172, 29);
+    }
+    50% {
+      text-shadow: 0 0 1px rgb(208, 63, 0);
+    }
+  }
+  @keyframes glow {
+    80% {
+      text-shadow: 0 0 2px rgb(220, 172, 29);
+    }
+    50% {
+      text-shadow: 0 0 1px rgb(208, 63, 0);
+    }
+  }
+  #Enginer-About .container .About h3 {
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 33px;
+  }
+  #Enginer-About .container .About div {
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: start;
+    margin-bottom: 0px;
+  }
+  #Enginer-About .container .About div .a {
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+    transition: 0.3s;
+  }
+  #Enginer-About .container .About div .a:hover {
+    transform: 0.3s;
+    color: #e45826;
+  }
+  #Enginer-About .container .About div .b {
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+    transition: 0.3s;
+  }
+  #Enginer-About .container .About div .b:hover {
+    transform: 0.3s;
+    color: #4268fb;
+  }
+  #Enginer-About .container .About div .c {
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 0;
+    opacity: 0;
+    font-size: 0px;
+    line-height: 0%;
+  }
+  #Enginer-About .container .About div .d {
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+    transition: 0.3s;
+  }
+  #Enginer-About .container .About div .d:hover {
+    transform: 0.3s;
+    color: #ecc33c;
+  }
+  #Enginer-About .container .About div img {
+    opacity: 0;
+    margin-left: 6px;
+    width: 0px;
+    height: 0px;
+    border-radius: 16px;
+  }
+  #Enginer-About .container .ZZ-QR {
+    width: 100%;
+    height: 202px;
+    background: #1B1A17;
+    border-radius: 12px;
+    margin-top: 10px;
+    opacity: 0.95;
+    -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(30px);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+  }
+  #Enginer-About .container .ZZ-QR .img-box {
+    width: 222px;
+    height: 202px;
+    padding: 40px 0px;
+  }
+  #Enginer-About .container .ZZ-QR .img-box img {
+    width: 150px;
+    height: 100px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #Enginer-About .container .ZZ-QR .QR-box {
+    width: 200px;
+    height: 175px;
+    background: #FFFFFF;
+    opacity: 0.95;
+    -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(30px);
+    border-radius: 12px;
+    padding: 17px 30px;
+  }
+  #Enginer-About .container .ZZ-QR .QR-box img {
+    width: 140px;
+    height: 140px;
+  }
+  #Enginer-About .Container {
+    width: 100%;
+    height: 100%;
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: transparent;
+    border-radius: 12px;
+    padding: 0px;
+  }
+  #Enginer-About .Container .PF-SM {
+    width: 100%;
+    height: 236px;
+    display: 0px;
+    border-radius: 12px;
+    background: #1B1A17;
+    justify-content: space-between;
+    display: flex;
+  }
+  #Enginer-About .Container .PF-SM img {
+    width: 40%;
+    height: 222px;
+    border-radius: 12px;
+  }
+  #Enginer-About .Container .PF-SM .social-media {
+    width: 150px;
+    height: 236px;
+    border-radius: 12px;
+    background-color: transparent;
+    display: block;
+    justify-content: flex-start;
+    text-align: start;
+    padding: 24px 0px;
+  }
+  #Enginer-About .Container .PF-SM .social-media a {
+    display: block;
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 22px;
+  }
+  #Enginer-About .Container .Res-Hire {
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  #Enginer-About .Container .Res-Hire div {
+    width: 100%;
+    height: 70px;
+    background: #FFFFFF;
+    opacity: 0.95;
+    -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(30px);
+    margin-top: 8px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+  }
+  #Enginer-About .Container .Res-Hire div h3 {
+    color: #000;
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 150%;
+  }
+  #Enginer-About .Container .Res-Hire div img {
+    width: 35px;
+    height: 35px;
+    border-radius: 12px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #Enginer-About .Container .Projects {
+    width: 100%;
+    height: 202px;
+    background: #FFFFFF;
+    opacity: 0.95;
+    -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(30px);
+    border-radius: 12px;
+    margin-top: 8px;
+    display: block;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 25px;
+  }
+  #Enginer-About .Container .Projects h3 {
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  #Enginer-About .Container .Projects .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  #Enginer-About .Container .Projects .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #Enginer-About .Container .Projects .swiper-slide a img {
+    width: 110px;
+    height: 14vh;
+    border-radius: 12px;
+    margin-left: 5px;
+  }
+  #Enginer-About .Container .Projects .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 480px) {
+  #Enginer-About {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 25px 25px;
+    background: #1B1A17;
+  }
+  #Enginer-About .container {
+    width: 100%;
+    height: auto;
+    background: transparent;
+    opacity: 0.95;
+    -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(30px);
+    border-radius: 12px;
+    padding: 0px 0px;
+  }
+  #Enginer-About .container .About {
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    opacity: 0.95;
+    -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(30px);
+    border-radius: 12px;
+    padding: 35px 25px;
+    text-align: start;
+  }
+  #Enginer-About .container .About h1 {
+    background: 50% 100%/50% 50% no-repeat radial-gradient(ellipse at bottom, rgb(132, 101, 211), transparent, transparent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: "roboto";
+    font-style: normal;
+    color: transparent;
+    font-weight: 800;
+    font-size: 44px;
+    margin-bottom: 10px;
+    line-height: 60px;
+    -webkit-animation: reveal 3000ms ease-in-out forwards 200ms, glow 3000ms linear infinite 1000ms;
+            animation: reveal 3000ms ease-in-out forwards 200ms, glow 3000ms linear infinite 1000ms;
+  }
+  @-webkit-keyframes reveal {
+    80% {
+      letter-spacing: 1.5px;
+    }
+    100% {
+      background-size: 200% 200%;
+    }
+  }
+  @keyframes reveal {
+    80% {
+      letter-spacing: 1.5px;
+    }
+    100% {
+      background-size: 200% 200%;
+    }
+  }
+  @-webkit-keyframes glow {
+    80% {
+      text-shadow: 0 0 2px rgb(220, 172, 29);
+    }
+    50% {
+      text-shadow: 0 0 1px rgb(208, 63, 0);
+    }
+  }
+  @keyframes glow {
+    80% {
+      text-shadow: 0 0 2px rgb(220, 172, 29);
+    }
+    50% {
+      text-shadow: 0 0 1px rgb(208, 63, 0);
+    }
+  }
+  #Enginer-About .container .About h3 {
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 33px;
+  }
+  #Enginer-About .container .About div {
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: start;
+    margin-bottom: 0px;
+  }
+  #Enginer-About .container .About div .a {
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    transition: 0.3s;
+  }
+  #Enginer-About .container .About div .a:hover {
+    transform: 0.3s;
+    color: #e45826;
+  }
+  #Enginer-About .container .About div .b {
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    transition: 0.3s;
+  }
+  #Enginer-About .container .About div .b:hover {
+    transform: 0.3s;
+    color: #4268fb;
+  }
+  #Enginer-About .container .About div .c {
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 0;
+    opacity: 0;
+    font-size: 0px;
+    line-height: 0%;
+  }
+  #Enginer-About .container .About div .d {
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    transition: 0.3s;
+  }
+  #Enginer-About .container .About div .d:hover {
+    transform: 0.3s;
+    color: #ecc33c;
+  }
+  #Enginer-About .container .About div img {
+    opacity: 0;
+    margin-left: 6px;
+    width: 0px;
+    height: 0px;
+    border-radius: 16px;
+  }
+  #Enginer-About .container .ZZ-QR {
+    width: 100%;
+    height: 202px;
+    background: #1B1A17;
+    border-radius: 12px;
+    margin-top: 10px;
+    opacity: 0.95;
+    -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(30px);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+  }
+  #Enginer-About .container .ZZ-QR .img-box {
+    width: auto;
+    height: 202px;
+    padding: 50px 0px;
+  }
+  #Enginer-About .container .ZZ-QR .img-box img {
+    width: 125px;
+    height: 85px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #Enginer-About .container .ZZ-QR .QR-box {
+    width: 165px;
+    height: 155px;
+    background: #FFFFFF;
+    opacity: 0.95;
+    -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(30px);
+    border-radius: 12px;
+    padding: 15px 20px;
+  }
+  #Enginer-About .container .ZZ-QR .QR-box img {
+    width: 125px;
+    height: 125px;
+  }
+  #Enginer-About .Container {
+    width: 100%;
+    height: 100%;
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: transparent;
+    border-radius: 12px;
+    margin-top: 10px;
+    padding: 0px;
+  }
+  #Enginer-About .Container .PF-SM {
+    width: 100%;
+    height: auto;
+    display: 0px;
+    border-radius: 12px;
+    background: #1B1A17;
+    justify-content: space-between;
+    display: flex;
+  }
+  #Enginer-About .Container .PF-SM img {
+    width: 42%;
+    height: 170px;
+    border-radius: 12px;
+  }
+  #Enginer-About .Container .PF-SM .social-media {
+    width: 130px;
+    height: auto;
+    border-radius: 12px;
+    background-color: transparent;
+    display: block;
+    justify-content: flex-start;
+    text-align: start;
+    padding: 20px 0px;
+  }
+  #Enginer-About .Container .PF-SM .social-media a {
+    display: block;
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+  }
+  #Enginer-About .Container .Res-Hire {
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  #Enginer-About .Container .Res-Hire div {
+    width: 100%;
+    height: 60px;
+    background: #FFFFFF;
+    opacity: 0.95;
+    -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(30px);
+    margin-top: 8px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 22px;
+  }
+  #Enginer-About .Container .Res-Hire div h3 {
+    color: #000;
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 150%;
+  }
+  #Enginer-About .Container .Res-Hire div img {
+    width: 32px;
+    height: 32px;
+    border-radius: 12px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #Enginer-About .Container .Projects {
+    width: 100%;
+    height: 202px;
+    background: #FFFFFF;
+    opacity: 0.95;
+    -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(30px);
+    border-radius: 12px;
+    margin-top: 8px;
+    display: block;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 20px;
+  }
+  #Enginer-About .Container .Projects h3 {
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  #Enginer-About .Container .Projects .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  #Enginer-About .Container .Projects .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #Enginer-About .Container .Projects .swiper-slide a img {
+    width: 85px;
+    height: 12vh;
+    border-radius: 12px;
+    margin-left: 5px;
+  }
+  #Enginer-About .Container .Projects .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}/*# sourceMappingURL=index.css.map */
